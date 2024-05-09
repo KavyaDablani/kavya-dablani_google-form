@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -47,7 +46,7 @@ public class TestCases {
         messageInput.click();
         messageInput.sendKeys(message);
         Thread.sleep(5000);
-        // 4
+        // 4 automate
         WebElement automationExp = driver.findElement(By.xpath("(//div[@class='AB7Lab Id5V1'])[4]"));
         automationExp.click();
         Thread.sleep(5000);
